@@ -41,12 +41,13 @@
 
 
 //e.g. for a matrix:
-//    r l e a
-//    n e s c
-//    a m s r
-//    r n u o
+//    e e y o
+//    d i t j
+//    o u r v
+//    b w u a
+
 //inline presentation of the above 4x4 matrix
-static NSString *valueString = @"rleanescamsrnruo";
+static NSString *valueString = @"eeyoditjourvbwua";
 
 
 - (void)initGraph
