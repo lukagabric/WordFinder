@@ -1,0 +1,286 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		416E2F3A17DCCDF600569F85 /* DirectionalGraph.m in Sources */ = {isa = PBXBuildFile; fileRef = 416E2F2F17DCCDF600569F85 /* DirectionalGraph.m */; };
+		416E2F3B17DCCDF600569F85 /* GraphNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 416E2F3117DCCDF600569F85 /* GraphNode.m */; };
+		416E2F3C17DCCDF600569F85 /* GraphSearchController.m in Sources */ = {isa = PBXBuildFile; fileRef = 416E2F3317DCCDF600569F85 /* GraphSearchController.m */; };
+		416E2F3D17DCCDF600569F85 /* dataSource.dat in Resources */ = {isa = PBXBuildFile; fileRef = 416E2F3517DCCDF600569F85 /* dataSource.dat */; };
+		416E2F3E17DCCDF600569F85 /* dataSource1.dat in Resources */ = {isa = PBXBuildFile; fileRef = 416E2F3617DCCDF600569F85 /* dataSource1.dat */; };
+		416E2F3F17DCCDF600569F85 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 416E2F3717DCCDF600569F85 /* main.m */; };
+		A1E1948515FBC4B7005D69A6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1E1948415FBC4B7005D69A6 /* UIKit.framework */; };
+		A1E1948715FBC4B7005D69A6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1E1948615FBC4B7005D69A6 /* Foundation.framework */; };
+		A1E1948915FBC4B7005D69A6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1E1948815FBC4B7005D69A6 /* CoreGraphics.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		416E2F2E17DCCDF600569F85 /* DirectionalGraph.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DirectionalGraph.h; sourceTree = "<group>"; };
+		416E2F2F17DCCDF600569F85 /* DirectionalGraph.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DirectionalGraph.m; sourceTree = "<group>"; };
+		416E2F3017DCCDF600569F85 /* GraphNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GraphNode.h; sourceTree = "<group>"; };
+		416E2F3117DCCDF600569F85 /* GraphNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GraphNode.m; sourceTree = "<group>"; };
+		416E2F3217DCCDF600569F85 /* GraphSearchController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GraphSearchController.h; sourceTree = "<group>"; };
+		416E2F3317DCCDF600569F85 /* GraphSearchController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GraphSearchController.m; sourceTree = "<group>"; };
+		416E2F3517DCCDF600569F85 /* dataSource.dat */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = dataSource.dat; sourceTree = "<group>"; };
+		416E2F3617DCCDF600569F85 /* dataSource1.dat */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = dataSource1.dat; sourceTree = "<group>"; };
+		416E2F3717DCCDF600569F85 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		416E2F3817DCCDF600569F85 /* WordFinder-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "WordFinder-Info.plist"; sourceTree = "<group>"; };
+		416E2F3917DCCDF600569F85 /* WordFinder-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "WordFinder-Prefix.pch"; sourceTree = "<group>"; };
+		A1E1948015FBC4B7005D69A6 /* WordFinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WordFinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1E1948415FBC4B7005D69A6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A1E1948615FBC4B7005D69A6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A1E1948815FBC4B7005D69A6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A1E1947D15FBC4B7005D69A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1E1948515FBC4B7005D69A6 /* UIKit.framework in Frameworks */,
+				A1E1948715FBC4B7005D69A6 /* Foundation.framework in Frameworks */,
+				A1E1948915FBC4B7005D69A6 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		416E2F2D17DCCDF600569F85 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				416E2F2E17DCCDF600569F85 /* DirectionalGraph.h */,
+				416E2F2F17DCCDF600569F85 /* DirectionalGraph.m */,
+				416E2F3017DCCDF600569F85 /* GraphNode.h */,
+				416E2F3117DCCDF600569F85 /* GraphNode.m */,
+				416E2F3217DCCDF600569F85 /* GraphSearchController.h */,
+				416E2F3317DCCDF600569F85 /* GraphSearchController.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		416E2F3417DCCDF600569F85 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				416E2F3517DCCDF600569F85 /* dataSource.dat */,
+				416E2F3617DCCDF600569F85 /* dataSource1.dat */,
+				416E2F3717DCCDF600569F85 /* main.m */,
+				416E2F3817DCCDF600569F85 /* WordFinder-Info.plist */,
+				416E2F3917DCCDF600569F85 /* WordFinder-Prefix.pch */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A1E1947515FBC4B7005D69A6 = {
+			isa = PBXGroup;
+			children = (
+				A1E1948A15FBC4B7005D69A6 /* WordFinder */,
+				A1E1948315FBC4B7005D69A6 /* Frameworks */,
+				A1E1948115FBC4B7005D69A6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A1E1948115FBC4B7005D69A6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A1E1948015FBC4B7005D69A6 /* WordFinder.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A1E1948315FBC4B7005D69A6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A1E1948415FBC4B7005D69A6 /* UIKit.framework */,
+				A1E1948615FBC4B7005D69A6 /* Foundation.framework */,
+				A1E1948815FBC4B7005D69A6 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A1E1948A15FBC4B7005D69A6 /* WordFinder */ = {
+			isa = PBXGroup;
+			children = (
+				416E2F2D17DCCDF600569F85 /* Classes */,
+				416E2F3417DCCDF600569F85 /* Supporting Files */,
+			);
+			path = WordFinder;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A1E1947F15FBC4B7005D69A6 /* WordFinder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1E1949815FBC4B7005D69A6 /* Build configuration list for PBXNativeTarget "WordFinder" */;
+			buildPhases = (
+				A1E1947C15FBC4B7005D69A6 /* Sources */,
+				A1E1947D15FBC4B7005D69A6 /* Frameworks */,
+				A1E1947E15FBC4B7005D69A6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WordFinder;
+			productName = WordFinder;
+			productReference = A1E1948015FBC4B7005D69A6 /* WordFinder.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A1E1947715FBC4B7005D69A6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = Luka;
+			};
+			buildConfigurationList = A1E1947A15FBC4B7005D69A6 /* Build configuration list for PBXProject "WordFinder" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A1E1947515FBC4B7005D69A6;
+			productRefGroup = A1E1948115FBC4B7005D69A6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A1E1947F15FBC4B7005D69A6 /* WordFinder */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A1E1947E15FBC4B7005D69A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				416E2F3D17DCCDF600569F85 /* dataSource.dat in Resources */,
+				416E2F3E17DCCDF600569F85 /* dataSource1.dat in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A1E1947C15FBC4B7005D69A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				416E2F3A17DCCDF600569F85 /* DirectionalGraph.m in Sources */,
+				416E2F3B17DCCDF600569F85 /* GraphNode.m in Sources */,
+				416E2F3C17DCCDF600569F85 /* GraphSearchController.m in Sources */,
+				416E2F3F17DCCDF600569F85 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A1E1949615FBC4B7005D69A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A1E1949715FBC4B7005D69A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A1E1949915FBC4B7005D69A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WordFinder/Supporting Files/WordFinder-Prefix.pch";
+				INFOPLIST_FILE = "WordFinder/Supporting Files/WordFinder-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = "armv7 i386";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A1E1949A15FBC4B7005D69A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WordFinder/Supporting Files/WordFinder-Prefix.pch";
+				INFOPLIST_FILE = "WordFinder/Supporting Files/WordFinder-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = "armv7 i386";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A1E1947A15FBC4B7005D69A6 /* Build configuration list for PBXProject "WordFinder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1E1949615FBC4B7005D69A6 /* Debug */,
+				A1E1949715FBC4B7005D69A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1E1949815FBC4B7005D69A6 /* Build configuration list for PBXNativeTarget "WordFinder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1E1949915FBC4B7005D69A6 /* Debug */,
+				A1E1949A15FBC4B7005D69A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A1E1947715FBC4B7005D69A6 /* Project object */;
+}
