@@ -67,45 +67,37 @@ Input
 
 In GraphSearchController.m:
 
-//4x4 matrix like the one below is used for graph search example
+4x4 matrix like the one below is used for graph search example
 
-//A B C D
-
-//E F G H
-
-//I J K L
-
-//M N O P
+	A B C D
+	E F G H
+	I J K L
+	M N O P
 
 
-//e.g. for a matrix:
+e.g. for a matrix in the image above:
 
-//    r l e a
+	e e y o
+	d i t j
+	o u r v
+	b w u a
 
-//    n e s c
+inline presentation of the above 4x4 matrix
 
-//    a m s r
-
-//    r n u o
-
-//inline presentation of the above 4x4 matrix
-
-static NSString *valueString = @"rleanescamsrnruo";
+	static NSString *valueString = @"eeyoditjourvbwua";
 
 Output
 ------
 
-All found words and letter locations are logged in the console, eg. resources:
+All found words and letter locations are logged in the console, e.g.:
 
-'resources'
-(
-    "r - (1,1)",
-    "e - (2,2)",
-    "s - (3,3)",
-    "o - (4,4)",
-    "u - (4,3)",
-    "r - (3,4)",
-    "c - (2,4)",
-    "e - (1,3)",
-    "s - (2,3)"
-)
+	'variety'
+	(
+		"v - (3,4)",
+		"a - (4,4)",
+		"r - (3,3)",
+		"i - (2,2)",
+		"e - (1,2)",
+		"t - (2,3)",
+		"y - (1,3)"
+	)
